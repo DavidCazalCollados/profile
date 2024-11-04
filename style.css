@@ -1,23 +1,24 @@
 body {
-  background-color:rgb(246, 242, 237);
+  background-color:rgb(249, 246, 242);
   font-family: "Montserrat";
   font-size: 16px;
   font-weight: 300;
   font-style: normal;
   color: #212427;
-  line-height:1;
+  line-height:1.5;
 }
 
 h1, h2 {
-  color: rgb(12, 64, 12);
+  color: rgb(41, 60, 41);
   font-weight: 700;
-  line-height: 2;
+  line-height: 1.2;
   font-size: 30px;
 }
 
 img {
   border-radius: 50%;
-  width: 200px;
+  width: 180px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .card {
@@ -49,24 +50,34 @@ a {
   color: rgb(216, 81, 81);
   font-weight: 600;
   font-size: 30px;
+  transition: 0.3s ease;
 }
 
 a:hover {
   color: rgb(230, 149, 149);
 }
 
+p {
+  margin: 25px auto;
+}
+
 .btn-red {
   background: rgb(216, 81, 81);
   color: rgb(243, 247, 250);
   font-size: 16px;
-  padding: 15px;
+  padding: 10px;
   display: inline-block;
   border-radius: 5px;
 }
 
 .btn-red:hover {
   background: rgb(228, 152, 152);
-  color:rgb(218, 39, 39);
+  color:rgb(213, 41, 41);
+}
+
+.line {
+  border-bottom: 1px solid rgb(41, 60, 41);
+  margin: 25px 270px;
 }
 
 @media (max-width: 960px) {
